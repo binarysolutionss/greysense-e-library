@@ -45,8 +45,8 @@ Create user accounts
 Contributing:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Contact
+Contact:
 For support or queries, please open an issue in the repository.
