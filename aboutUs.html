@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>greySense - About Us</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/logInStyle.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="assets/js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/b5a38f818c.js" crossorigin="anonymous"></script>
+	<link href="assets/img/Logo - Fav Icon.png" rel="icon">
+</head>
+
+<body>
+	
+	<!--Navigation Bar-->
+		<nav class="nav-bar" id="nav-bar">
+			<div class="logo">
+			<a href="#"><img src="assets/img/Logo.png"></a>
+			</div>
+			<ul>
+				<li><a class="nav-link" href="index.html">Home</a></li>
+				<li>
+					<button class="get-started-button"><a href="registration/login.php" class="get-satrted-link">Log In</a></button>
+				</li>
+			</ul>
+		</nav>
+		<!--End of Navigation Bar-->
+	
+	<!--About Us-->
+	<section class="services about-us about-us-page-hero">
+		<div class="services-title about-us-title">
+			<h2>About Us</h2>
+         	<p>The library is still the hub of academic activity on campus despite the current climate of fast change. Our library <br>  is an essential resource forlearning, teaching, and research at the university because to its top-notch collections <br> and services, which are available online, at your fingertips.</p>
+		</div>
+		
+		<div class="services-info">
+			<div class="services-row">
+				
+				<div class="services-column about-us-column">
+					 <i class="fa-solid fa-cog fa-spin"></i>
+					<h4 class="services-header">100+ Hours of Techncal Support</h4>
+					<p class="services-description">Our technical team offers round the clock of help. Call or email to engage the support office.</p>
+				</div>
+				
+				<div class="services-column about-us-column">
+					 <i class="fa-solid fa-cog fa-spin"></i>
+					<h4 class="services-header">Experienced Staff</h4>
+					<p class="services-description">Our development team has members with a lot of technical experience in Web 3.0 technologies.</p>
+				</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	<!--End of About Us-->
+	
+	<!--Contact Us-->
+	<section class="services contact-us about-us-contact-us">
+		
+		<div class="services-info">
+			<div class="services-row">
+				
+				<div class="contact-us-column">
+					<img src="assets/img/Logo.png">
+				</div>
+				
+				<div class="contact-us-column contact-us-column-2">
+					<div class="contact-us-rows">
+						<i class="fa-solid fa-user"></i>
+						<p>Stanley Masimba Chiremba 200180</p>
+					</div>
+					<div class="contact-us-rows">
+						<i class="fa-solid fa-location-pin"></i>
+						<p>Africa University, Mutare, Zimbabwe</p>
+					</div>
+					<div class="contact-us-rows">
+						<i class="fa-solid fa-envelope"></i>
+						<p>chirembas@africau.edu</p>
+					</div>
+					<div class="contact-us-rows">
+						<i class="fa-solid fa-phone"></i>
+						<p>+263 772 342 749</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<!--End of Contact Us-->
+	
+	<!--Footer-->
+	<footer class="footer">
+		<div class="footer-content">
+			<div class="copyright">
+					&copy; Copyright <strong>greySense</strong>. All Rights Reserved
+					<p>Designed by <a href="#">Stanley Masimba Chiremba 200180</a></p>
+				</div>
+			<div class="footer-links">
+				<nav class="footer-nav">
+					<a class="footer-nav-links" href="index.html">Home</a>
+					<a class="footer-nav-links" href="assets/documentation/Stanley Masimba Chiremba - NCSE303 Project Documentation.docx" download>Documentation</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	<!--End of Footer-->
+
+	
+	<script>
+		//Nav bar whitens as you scroll down
+		$(function(){
+			$(document).scroll(function(){
+				var $nav = $('.nav-bar');
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+	</script>
+	
+</body>
+</html>

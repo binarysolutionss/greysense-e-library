@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Login Fomr Properties*/
+
+.login-form-container{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.login-info-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.login-form h4{
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.login-form i{
+	padding: 5px;
+}
+
+.inputield{
+	padding: 10px;
+	margin-top: 20px;
+	width: 80%;
+	height: 40px;
+	align-self: center;
+	border-radius: 10px;
+	border: 0.5px solid #FF0023; 
+}
+
+.inputield:focus{
+	box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+	border: none;
+}
+
+input[type="date"]:not(.has-value):before{
+  color: gray;
+  content: attr(placeholder);
+}
+
+.loginButton{
+    margin-top: 20px;
+	align-self: center;
+	padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #FF0023;
+    cursor: pointer;
+    border: none;
+	color: white;
+	font-weight: 750;
+	margin-bottom: 20px;
+}
+
+.signupLink{
+	color:#FF0023; 
+}
+
+/*Dashboard*/
+
+.dashboardOptions-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	transition: all .5s ease-in-out;
+	flex-wrap: wrap;
+}
+
+.dashboardOptions-column{
+	flex-basis: 35%;
+	background: #fff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+	padding-bottom: 2rem;
+	text-align: center;
+	transition: all .5s ease-in-out;
+	z-index: 40;
+}
+
+.services-header{
+	margin-bottom: 20px;
+}
+
+.dashboard-actions{
+	margin-top: 20px;
+	align-self: center;
+	padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #FF0023;
+    cursor: pointer;
+    border: none;
+	color: white;
+	font-weight: 750;
+}
+
+.dashboard-actions a{
+	color: white;
+	transition: all 0.3s;
+}
+
+.dashboardOptions-column:hover .dashboard-actions{
+	background: white;
+	transition: all 0.3s;
+}
+
+.dashboardOptions-column:hover .dashboard-actions a{
+	color: black;
+}
+
+.dashboard-title{
+	margin-top: 100px;
+}
+
+/*End of Dashboard*/
+
+.studentAddress-text-area{
+	transition: all .5s ease-in-out;
+	resize: vertical;
+	height: 13vw;
+	min-height: 40px;;
+}
+
+.dateCheckOut{
+	padding: 10px;
+	margin-top: 20px;
+	width: 80%;
+	height: 40px;
+	align-self: center;
+	border-radius: 10px;
+	border: 0.5px solid #FF0023;
+}
+
+.login-form{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
