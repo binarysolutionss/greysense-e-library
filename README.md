@@ -1,5 +1,8 @@
 GreySense e-Library Management System
 
+![greysense](https://github.com/user-attachments/assets/efb7853d-cf43-431c-865f-7ec127a2774e)
+
+
 A comprehensive web-based solution for managing library resources and operations
 
 Overview
