@@ -1,15 +1,14 @@
-GreySense e-Library Management System
+## GreySense e-Library Management System
 
 ![greysense](https://github.com/user-attachments/assets/efb7853d-cf43-431c-865f-7ec127a2774e)
 
-
 A comprehensive web-based solution for managing library resources and operations
 
-Overview
+## Overview
 
 This Library Management System (LMS) is a full-featured web application that streamlines library operations through an intuitive interface. Built with PHP and MySQL, it provides robust CRUD (Create, Read, Update, Delete) capabilities for managing books, user accounts, and lending operations.
 
-Key Features
+## Key Features
 
 Add, modify, and remove books from the catalog
 Complete book management system with detailed cataloging
@@ -21,20 +20,20 @@ Browse the book catalog
 Search for books
 Create user accounts
 
-Technical Stack
+## Technology Stack
 
 Frontend: HTML5, CSS3, JavaScript
 Backend: PHP
 Database: MySQL
 
-System Requirements
+## System Requirements
 
 PHP 7.4 or higher
 MySQL 5.7 or higher
 Web server (Apache/Nginx)
 Modern web browser
 
-Installation
+## Installation
 
 Clone the repository
 Import the included SQL database schema
@@ -42,14 +41,14 @@ Configure database connections in config.php
 Set up your web server to serve the application
 Access the system through your web browser
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Contact
+## Contact
 
 For support or queries, please open an issue in the repository.
